@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Image filtering in image processing.
+> OOP C++ Demos.
 
 ---
 
@@ -20,15 +20,17 @@
 
 ## 📝 About
 
-> This is a simple tool to filter image by many types.
+> Demos about OOP C++ concepts.
 
 ---
 
 ## ✨ Features
 
-- ✅ Add noise with density (Gaussian, Poisson, Salt & Pepper, Speckle)
-- ✅ Noise removal filter by size
-- ✅ Enhancement
+- ✅ Use Cmake as workspace
+- ✅ Pointers and References
+- ✅ Classes with Dynamically Allocated Data Members
+- ✅ Composed class - Embedded class
+- ✅ Inheritance
 
 ---
 
@@ -37,21 +39,25 @@
 ### Prerequisites
 
 - List software dependencies or system requirements here:
-  - MATLAB
+  - C++
+  - Cmake
+  - VSCode (Cmake extension)
 
 ### Source
 
-- *.fig: design GUI
-- *.m: main app
+- build/
+- out/
+- main.cpp: main app
+- CMakeLists.txt: config workspace
+- CMakePresets.json: config compiler
+- <folder>/*.cpp: source code
 
 ### Usage
 
-- Open file *.m in MATLAB
-- Change folder to location containing source code
+- Install Cmake extension to VSCode
+- Paste source code to **main.cpp**
 - Run
-- When app window opens, choose image file first
-- Apply custom image filters (fill mandatory parameters) and see results 
 
 ### Reference
 
-- 
+-
