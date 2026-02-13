@@ -31,6 +31,7 @@
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
 - ✅ Inheritance
+- ✅ Stream
 
 ---
 
@@ -47,15 +48,16 @@
 
 - build/
 - out/
-- main.cpp: main app
+- main.cpp: main app (paste code to this file to run as default)
 - CMakeLists.txt: config workspace
 - CMakePresets.json: config compiler
-- <folder>/*.cpp: source code
+- */*.cpp: source code
+- */*.txt, */*.bin: test files
 
 ### Usage
 
 - Install Cmake extension to VSCode
-- Paste source code to **main.cpp**
+- Paste source code to **main.cpp** OR modify navigation to source in **CMakeLists.txt**
 - Run
 
 ### Reference
