@@ -13,6 +13,33 @@
                 "CMAKE_CXX_COMPILER": "C:/Strawberry/c/bin/g++.exe",
                 "CMAKE_BUILD_TYPE": "Debug"
             }
+        },
+        {
+            "name": "dell_home",
+            "displayName": "GCC 14.2.0 x86_64-w64-mingw32",
+            "generator": "MinGW Makefiles",
+            "description": "Using compilers: C = d:\\phan_mem\\MINGW\\MinGW\\bin\\gcc.exe, CXX = d:\\phan_mem\\MINGW\\MinGW\\bin\\g++.exe",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "d:/phan_mem/MINGW/MinGW/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "d:/phan_mem/MINGW/MinGW/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "msys2",
+            "displayName": "GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)",
+            "generator": "Ninja",
+            "description": "Using compilers: C = d:\\phan_mem\\msys2\\installation\\ucrt64\\bin\\gcc.exe, CXX = d:\\phan_mem\\msys2\\installation\\ucrt64\\bin\\g++.exe",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "d:/phan_mem/msys2/installation/ucrt64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "d:/phan_mem/msys2/installation/ucrt64/bin/g++.exe",
+                "CMAKE_MAKE_PROGRAM": "D:/phan_mem/msys2/installation/ucrt64/bin/ninja.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
         }
     ]
 }
