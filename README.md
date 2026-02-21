@@ -58,7 +58,7 @@
 
 - Install Cmake extension to VSCode
 - (Ctrl + Shift + P) -> Cmake: Select configure preset
-- Add a new preset -> Create from compilers -> Scan compilers in your PC -> enter preset name
+- Add a new preset -> Create from compilers -> Scan recursively for compilers... in your PC-> enter preset name
 - Add **"generator": "MinGW Makefiles",** as default preset
 - (Ctrl + Shift + P) -> Cmake: Select configure preset -> select your added new preset
 - (Ctrl + Shift + P) -> Cmake: set build target -> OOP_Cpp
