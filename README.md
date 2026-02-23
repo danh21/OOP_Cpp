@@ -27,11 +27,13 @@
 ## ✨ Features
 
 - ✅ Use Cmake as workspace
+- ✅ Class - Declaration and Definition
 - ✅ Pointers and References
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
 - ✅ Inheritance
 - ✅ Stream
+- ✅ Practice (multiplication matrix, I/O data, triangle, menu for banking)
 
 ---
 
