@@ -1,3 +1,4 @@
+/* Use this pointer */
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -22,7 +23,7 @@ private:
 
     string isGraduation() const 
     { 
-        return graduation ? "yes" : "no"; // trình biên dịch hiểu là this->graduation 
+        return graduation ? "yes" : "no"; // this->graduation 
     } 
 }; 
 
