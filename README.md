@@ -47,6 +47,10 @@
   - Time: typecast
   - Number: bool overloading
   - Vector: binary operators, commutative; insertion/extraction operators
+  - DoubleVector: subscript operator [], assignment operator
+  - Word: functor
+  - X_ptr: operator->, operator*
+  - Point3D: new, delete, new[], delete[]
 - ✅ Pointers and References
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
