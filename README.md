@@ -28,31 +28,42 @@
 
 - ✅ Use Cmake as workspace
 - ✅ Class - Declaration and Definition
-  - ✅ Account: basic class
-  - ✅ Student: apply this pointer
-  - ✅ Account2: constructor overloading
-  - ✅ Point: apply default arguments in methods
-  - ✅ Date: copy constructor
-  - ✅ Dollard: conversion constructor
-  - ✅ Dollard2: explicit in conversion constructor
-  - ✅ Article: static member, destructor
+  - Account: basic class
+  - Student: apply this pointer
+  - Account2: constructor overloading
+  - Point: apply default arguments in methods
+  - Date: copy constructor
+  - Dollard: conversion constructor
+  - Dollard2: explicit in conversion constructor
+  - Article: static member, destructor, getter/setter
+  - SalesPerson: helper function
+  - Account3: inline function
+  - Node: non-member friend
+  - friend: member friend
+  - Time: const object
+  - Person: static method
+- ✅ Operator overloading
+  - Complex: Unary operators (-, ++prefix, postfix++, <<), binary operators (+, +=)
+  - Time: typecast
+  - Number: bool overloading
+  - Vector: binary operators, commutative; insertion/extraction operators
 - ✅ Pointers and References
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
 - ✅ Inheritance
 - ✅ Stream
 - ✅ Practice
-  - ✅ Matrix: multiplication matrix...
-  - ✅ Element: I/O data...
-  - ✅ Triangle classification...
-  - ✅ Account: interface for banking transaction...
-  - ✅ Clock: extract string to tokens...
-  - ✅ Date manipulation...
-  - ✅ Fraction: operator overloading (+, -, *, /, compare...)
-  - ✅ Mystring: allocate dynamic data, concat, compare, substring, I/O...
-  - ✅ List: composition class, insert/remove node, linked-list implementation
-  - ✅ Product: inheritance, abstraction, I/O function
-  - ✅ Bank: inheritance, Polymorphism, I/O function
+  - Matrix: multiplication matrix...
+  - Element: I/O data...
+  - Triangle classification...
+  - Account: interface for banking transaction...
+  - Clock: extract string to tokens...
+  - Date manipulation...
+  - Fraction: operator overloading (+, -, *, /, compare...)
+  - Mystring: allocate dynamic data, concat, compare, substring, I/O...
+  - List: composition class, insert/remove node, linked-list implementation
+  - Product: inheritance, abstraction, I/O function
+  - Bank: inheritance, Polymorphism, I/O function
 
 ---
 
