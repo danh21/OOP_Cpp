@@ -9,6 +9,7 @@ add_subdirectory(src/Dynamically_Allocated_Data_Members)
 add_subdirectory(src/Inheritance)
 add_subdirectory(src/Practice)
 add_subdirectory(src/Stream)
+add_subdirectory(src/Polymorphism)
 
 add_executable(OOP_Cpp main.cpp)
 
@@ -22,6 +23,7 @@ dynamic
 inheritance
 practice
 stream
+polymorphism
 )
 
 # Target a specific file

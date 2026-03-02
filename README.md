@@ -54,6 +54,11 @@
 - ✅ Pointers and References
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
+- ✅ Polymorphism
+  - Instrument: upcasting
+  - Student: static binding
+  - Shape: vitual func, dynamic binding
+  - Base: virtual destructor
 - ✅ Inheritance
 - ✅ Stream
 - ✅ Practice
