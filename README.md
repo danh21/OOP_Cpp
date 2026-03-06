@@ -57,8 +57,10 @@
 - ✅ Polymorphism
   - Instrument: upcasting
   - Student: static binding
-  - Shape: vitual func, dynamic binding
+  - Shape: vitual func, dynamic binding, abstract class
   - Base: virtual destructor
+  - Car: static_cast, dynamic_cast
+  - ClientData: reinterpret_cast
 - ✅ Inheritance
 - ✅ Stream
 - ✅ Practice
