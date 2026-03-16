@@ -52,6 +52,9 @@
   - X_ptr: operator->, operator*
   - Point3D: new, delete, new[], delete[]
 - ✅ Pointers and References
+  - Fraction: pointer
+  - Function_pointer
+  - Greetings: pointer to member function
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
 - ✅ Polymorphism
