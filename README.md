@@ -55,6 +55,10 @@
   - Fraction: pointer
   - Function_pointer
   - Greetings: pointer to member function
+  - Pointer: reference
+  - str: read-only pointer
+  - const_cast: use const_cast to modify member data in const member function
+  - mutable: use mutable to modify member data in const member function
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
 - ✅ Polymorphism
