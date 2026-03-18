@@ -59,6 +59,8 @@
   - str: read-only pointer
   - const_cast: use const_cast to modify member data in const member function
   - mutable: use mutable to modify member data in const member function
+  - Point: return by value/reference
+  - Matrix: return by reference
 - ✅ Classes with Dynamically Allocated Data Members
 - ✅ Composed class - Embedded class
 - ✅ Polymorphism
