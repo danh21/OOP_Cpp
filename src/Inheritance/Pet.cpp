@@ -18,17 +18,20 @@ public:
     using Pet::name;
     GoldFish(const string& s) : Pet(s) {}
 
-    using Pet::eat; // "công khai" một phương thức thành viên thừa kế private
+    using Pet::eat; // public 1 member function inherited as private
 
-    void sleep() const // gọi phương thức sleep lớp Pet
-    { Pet::sleep(); cout << name << endl; }
+    void sleep() const 
+    { 
+        Pet::sleep(); // call sleep() method of Pet class
+        cout << name << endl; 
+    }
 };
 
 int main(int, char**) {
     GoldFish bob( "Nemo" );
-    cout << bob.name << endl;
+    // cout << bob.name << endl;
 
-    bob.eat(); // do phương thức eat đã "công khai" nên gọi được
+    bob.eat(); // because the eat() method has been made public in GoldFish class
 
     bob.sleep();
 
