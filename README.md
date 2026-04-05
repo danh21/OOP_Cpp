@@ -66,6 +66,7 @@
   - complex: allocate dynamic array
   - doublevector: deep copy
 - ✅ Composed class - Embedded class
+  - Line: association relationship
 - ✅ Polymorphism
   - Instrument: upcasting
   - Student: static binding
