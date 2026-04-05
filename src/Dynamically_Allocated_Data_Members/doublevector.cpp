@@ -5,14 +5,14 @@ using namespace std;
 class DoubleVector
 {
     friend ostream & operator<<( ostream &, const DoubleVector & );
-    double* p; // thành phần dữ liệu động của lớp
+    double* p; // dynamic array of double
     size_t size;
 public:
     DoubleVector( int = 10 );
     // copy constructor
     DoubleVector( const DoubleVector & );
     ~DoubleVector()
-    { delete p; } // giải phóng cấp phát trong destructor
+    { delete p; } // release memory in destructor
     int ubound() const { return size - 1; }
     double & operator[]( int i );
     void getAddrPointer() const {
@@ -22,13 +22,13 @@ public:
 
 DoubleVector:: DoubleVector( int n ) : size( n ) {
     if ( n < 0 ) throw bad_alloc();
-    p = new double[ size ]; // cấp phát trong constructor
+    p = new double[ size ]; // allocate memory for n doubles
     cout << (void*) p << " " << size << endl;
 }
 
 DoubleVector:: DoubleVector( const DoubleVector & dv ) : size( dv.size )
 {
-    cout << "copy ctor ...\n";
+    // cout << "copy ctor ...\n";
     p = new double[size];
     memcpy( p, dv.p, size * sizeof( double ) );
 }
@@ -64,15 +64,12 @@ DoubleVector boo( DoubleVector dv )
 int main()
 {
     DoubleVector s( 5 );
-    // foo( s );
-    boo(s);
+    foo( s );
+    // boo(s);
     cout << s;
-    // cout << s[11] << endl;
 
     DoubleVector b = s;
     b.getAddrPointer();
-    // b = s;
-    // b.getAddrPointer(); // p of b is same as p of s
 
     return 0;
 }

@@ -24,12 +24,23 @@ public:
     }
 };
 
+/**
+ * @brief Demonstrates dynamic memory allocation and object destruction in C++.
+ *
+ * This program illustrates the lifecycle of Point objects:
+ * - A Point object 'a' is dynamically allocated using 'new'.
+ * - A local Point object 'b' is created on the stack.
+ * - When 'b' goes out of scope, its destructor is automatically called.
+ * - The dynamically allocated object 'a' is explicitly deleted, invoking its destructor.
+ *
+ * This example highlights the importance of proper memory management to avoid leaks.
+ */
 int main()
 {
     Point* a = new Point( 3, 5 );
     {
         Point b( 4, 7 );
-    } // destructor của đối tượng b được gọi, do b ra ngoài tầm vực
+    }
 
-    delete a; // destructor của đối tượng a được gọi, do con trỏ quản lý a bị hủy
+    delete a;
 }

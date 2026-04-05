@@ -62,6 +62,9 @@
   - Point: return by value/reference
   - Matrix: return by reference
 - ✅ Classes with Dynamically Allocated Data Members
+  - point: allocate dynamic object
+  - complex: allocate dynamic array
+  - doublevector: deep copy
 - ✅ Composed class - Embedded class
 - ✅ Polymorphism
   - Instrument: upcasting
