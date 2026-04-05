@@ -75,6 +75,9 @@
   - Car: static_cast, dynamic_cast
   - ClientData: reinterpret_cast
 - ✅ Inheritance
+  - Student: inheritance
+  - Pet: "using" for public member
+  - Graduate: virtual base class
 - ✅ Stream
 - ✅ Practice
   - Matrix: multiplication matrix...
