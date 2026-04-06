@@ -1,3 +1,5 @@
 build/
 out/
 main.cpp
+*.txt
+*.bin

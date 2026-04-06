@@ -79,6 +79,9 @@
   - Pet: "using" for public member
   - Graduate: virtual base class
 - ✅ Stream
+  - Star: overloading insertion operator
+  - Text: read/write file txt
+  - Text: read/write file binary
 - ✅ Practice
   - Matrix: multiplication matrix...
   - Element: I/O data...
@@ -122,7 +125,8 @@
 - (Ctrl + Shift + P) -> Cmake: Select configure preset -> select your added new preset
 - (Ctrl + Shift + P) -> Cmake: set build target -> OOP_Cpp
 - Paste source code to **main.cpp** OR modify navigation to source in **CMakeLists.txt**
-- Run
+- Build
+- Run file OOP_Cpp.exe by Bash terminal at root project (avoid failed demos using relative path)
 
 ### Reference
 
