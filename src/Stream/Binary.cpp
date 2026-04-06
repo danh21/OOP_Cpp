@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define datafile "Stream/data.bin"
+#define datafile "src/Stream/data.bin"
 
 class Account {
     friend ostream& operator<<(ostream& os, const Account& obj) {

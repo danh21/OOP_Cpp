@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    ifstream inf ( "Stream/test.txt" ); // mặc định: chế độ cập nhật, tương đương ios::in | ios::out
-    ofstream outf ( "Stream/copy-test.txt" ); // tạo ofstream để ghi
+    ifstream inf ( "src/Stream/test.txt" ); // default: input mode, equivalent to ios::in
+    ofstream outf ( "src/Stream/copy-test.txt" ); // create ofstream to write
 
-    if ( !inf || !outf ) // nạp chồng toán tử ! kiểm tra đối tượng stream có tồn tại không
+    if ( !inf || !outf ) // overloaded operator! checks whether the stream object exists
     {
         cout << "Open file error!" << endl;
         return -1;
@@ -16,8 +16,8 @@ int main()
     while ( inf && outf )
     {
         string s;
-        getline( inf, s ); // getline() không nhận ký tự '\n'
-        outf << s +'\n'; // thao tác trên tập tin chính là thao tác trên stream
+        getline( inf, s ); // getline() does not include the '\n' character
+        outf << s + '\n'; // file operations are stream operations
     }
     cout << "Copy completed ..." << endl;
 
