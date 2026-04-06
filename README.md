@@ -81,7 +81,7 @@
 - ✅ Stream
   - Star: overloading insertion operator
   - Text: read/write file txt
-  - Text: read/write file binary
+  - Binary: read/write file binary
 - ✅ Practice
   - Matrix: multiplication matrix...
   - Element: I/O data...
